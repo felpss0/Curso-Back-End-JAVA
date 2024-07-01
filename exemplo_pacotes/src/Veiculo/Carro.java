@@ -1,6 +1,6 @@
 package Veiculo;
 
-public class Carro {
+public class Carro extends Veiculo {
 	public void ligar() {
 		verificaCombustivel();
 		verificaCambio();
