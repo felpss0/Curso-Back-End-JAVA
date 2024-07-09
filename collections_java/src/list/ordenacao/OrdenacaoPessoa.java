@@ -34,10 +34,10 @@ public class OrdenacaoPessoa {
 	public static void main(String[] args) {
 		
 		OrdenacaoPessoa ordenacaoPessoa = new OrdenacaoPessoa();
-		ordenacaoPessoa.adicionarPessoa("Felps", 22, 1.88);
-		ordenacaoPessoa.adicionarPessoa("Kaiser", 23, 1.67);
-		ordenacaoPessoa.adicionarPessoa("Jao", 27, 1.75);
-		ordenacaoPessoa.adicionarPessoa("Braia", 25, 2.30);
+		ordenacaoPessoa.adicionarPessoa("Nome 1", 22, 1.88);
+		ordenacaoPessoa.adicionarPessoa("Nome 2", 24, 1.67);
+		ordenacaoPessoa.adicionarPessoa("Nome 3", 27, 1.75);
+		ordenacaoPessoa.adicionarPessoa("Nome 4", 25, 1.30);
 		
 		
 		System.out.println(ordenacaoPessoa.ordernarPorIdade());
